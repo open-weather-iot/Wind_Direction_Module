@@ -1,5 +1,5 @@
-# TEMPLATE DE MÓDULO
-Esse repositório é um template para um módulo de sensor.
+# Módulo Sensor da Direção do Vento
+O subprojeto da Direção do Vento, faz parte do projeto da Estação Meteorológica para Monitoramento Climático e Ambiental.
 
 ## Utilizando esse template
 Para criar um novo módulo, siga os seguintes passos:
