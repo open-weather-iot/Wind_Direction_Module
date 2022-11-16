@@ -8,5 +8,6 @@ O subprojeto da Direção do Vento, faz parte do projeto da Estação Meteoroló
 
 # TESTE
 
+![Direção_Sensor](https://user-images.githubusercontent.com/40901361/202057084-a234265c-b923-4a63-ac7f-55bb9d21c572.PNG)
 
 # PROGRAMA
