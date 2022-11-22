@@ -11,6 +11,7 @@ O diagrama em blocos é composto pelo CI HMC5883L, um HOST (Raspberry Pico Pi) e
 # TESTE
 
 Os testes contam com os arquivos de SW descritos em Micropython. No arquivo hmc5883l.py contém  o range do campo do sensor de 0.88 a 8.1 Ga. Nesse arquivo o usuário deverá adicionar o Ângulo de Inclinação local, através do link  http://www.magnetic-declination.com/ é possivel obter esse ângulo. O modulo é configurado para trabalhar em modo continuo, em que as medidas são coletadas continuamente. O arquivo HMC5882Lcalibration.py é usado para calibrar o sensor. Por fim, o arquivo picoHMC5883L.py é usado para obter os dados em graus, que são utilizados para a direção do vento. 
+A Figura abaixo ilustra a posição em que o sensor precisa estar para realizar as medidas. 
 
 ![Direção_Sensor](https://user-images.githubusercontent.com/40901361/202057830-d29dfb14-a627-4d18-9e3d-aeaea10b6909.PNG)
 
