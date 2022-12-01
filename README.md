@@ -15,4 +15,11 @@ Os testes contam com os arquivos de SW descritos em Micropython. O arquivo HMC58
 ![Direção_Sensor](https://user-images.githubusercontent.com/40901361/202057830-d29dfb14-a627-4d18-9e3d-aeaea10b6909.PNG)
 
 
-A declinação magnética ou variação magnética,  é o ângulo formado entre o Polo Norte Geográfico e o Polo Norte Magnético, também conhecido como desvio entre o azimute(rumo)  e os correspondentes magnéticos. Por fim, o arquivo picoHMC5883L.py é usado para obter os dados em graus, que são utilizados para a direção do vento. 
+A declinação magnética ou variação magnética,  é o ângulo formado entre o Polo Norte Geográfico e o Polo Norte Magnético, também conhecido como desvio entre o azimute(rumo)  e os correspondentes magnéticos. A declinação no caso deste trabalho ficou em -21º e com inclinação de 38º. No Raspberry Pico Pi os sinais do I2C SCL (pino = 15) e SDA (pino = 14), endereço  0x1e (30 dec), foi adotado um ganho de '1.9', conforme a figura abaixo:
+
+![Declinação](https://user-images.githubusercontent.com/40901361/205069947-b2bb4939-e16b-478f-b868-02f15628b03f.PNG)
+
+
+
+
+Por fim, o arquivo picoHMC5883L.py é usado para obter os dados da direção do vento em graus. Foi dividido em 45 graus cada sentido adotaado (N,L,O,S, SE, SO, NE e NO)
